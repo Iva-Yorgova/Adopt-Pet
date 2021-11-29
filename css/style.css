@@ -47,7 +47,16 @@ p {
 }
 
 img {
-    width: 50%;
+    width: 70px;
+    padding: 20px 20px;
+}
+
+.logo-div {
+    display: inline-flex;
+}
+
+.logo-title {
+    line-height: 2;
 }
 
 .clouds {
@@ -71,9 +80,8 @@ pre {
 /* Navbar */
 
 .navbar {
-    background-color: var(--primary-color);
+    background-color: #353935;
     color: #fff;
-    height: 70px;
 }
 
 .navbar ul {
@@ -99,7 +107,9 @@ pre {
 
 .showcase {
     height: 400px;
-    background: linear-gradient(#F08080, #e23549);
+    /*background: linear-gradient(#F08080, #e23549);*/
+    background: gray url("../images/desk.png") no-repeat center center;
+    background-size: cover;
     color: #fff;
     position: relative;
 }
@@ -402,15 +412,12 @@ pre {
 /* Mobile */
 
 @media (max-width: 500px) {
-    .navbar {
-        height: 110px;
-    }
+    .navbar {}
     .navbar .flex {
         flex-direction: column;
     }
     .navbar ul {
         padding: 10px;
-        background-color: #CD5C5C;
     }
     .showcase-form {
         width: 300px;
