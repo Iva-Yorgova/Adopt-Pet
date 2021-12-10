@@ -47,7 +47,6 @@ p {
 }
 
 img {
-    width: 70px;
     padding: 20px 20px;
 }
 
@@ -95,7 +94,8 @@ pre {
 }
 
 .navbar a:hover {
-    border-bottom: 2px #fff solid;
+    color: #6768ab;
+    border-bottom: 2px #6768ab solid;
 }
 
 .navbar .flex {
@@ -418,4 +418,12 @@ pre {
     .showcase-form {
         width: 300px;
     }
+}
+
+.logo-big {
+    width: 200px;
+}
+
+.logo-small {
+    width: 70px;
 }
