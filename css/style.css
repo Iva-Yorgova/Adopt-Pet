@@ -18,7 +18,7 @@
 
 body {
     font-family: 'Raleway', sans-serif;
-    color: #CD5C5C;
+    color: #6768ab;
     line-height: 1.6;
 }
 
@@ -242,7 +242,7 @@ pre {
 
 .languages .card:hover {
     transform: translateY(-15px);
-    background-color: #F08080;
+    background-color: #6768ab;
     color: white;
 }
 
@@ -307,19 +307,15 @@ pre {
 }
 
 .fa-github:hover {
-    color: #F08080;
+    color: #6768ab;
 }
 
-.fa-facebook:hover {
-    color: #F08080;
+.fa-linkedin:hover {
+    color: #6768ab;
 }
 
-.fa-instagram:hover {
-    color: #F08080;
-}
-
-.fa-twitter:hover {
-    color: #F08080;
+.fa-behance:hover {
+    color: #6768ab;
 }
 
 
