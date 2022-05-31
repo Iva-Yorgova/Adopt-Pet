@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Raleway:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Raleway:wght@100;200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.15.4/css/all.css');
 :root {
     --primary-color: #F08080;
     --secondary-color: #CD5C5C;
@@ -46,14 +48,31 @@ p {
     margin: 10px 0;
 }
 
+.description {
+    font-size: 14px;
+}
+
+.logo-big {
+    width: 100%;
+}
+
+.logo-small {
+    width: 50px;
+}
 
 
 .logo-div {
     display: flex;
-    gap: 10px;
+    gap: 4px;
 }
 
 .logo-title {
+    font-family: 'Berkshire Swash', cursive;
+    background: linear-gradient(25deg, rgb(191, 178, 216) 0%, rgb(103, 104, 171) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    top: 7px;
 }
 
 .clouds {
@@ -80,6 +99,7 @@ pre {
     background-color: black;
     color: #fff;
     padding: 10px 0px;
+    height: 77px;
 }
 
 .navbar ul {
@@ -93,7 +113,7 @@ pre {
 }
 
 .navbar a:hover {
-    color: #6768ab;
+    color: #a7a8fa;
     border-bottom: 2px #6768ab solid;
 }
 
@@ -105,7 +125,7 @@ pre {
 /* Showcase */
 
 .showcase {
-    height: 400px;
+    height: 444px;
     /*background: linear-gradient(#F08080, #e23549);*/
     background-image: linear-gradient(90deg, rgba(103, 104, 171,0.5), rgba(103, 104, 171,0.5)), url("../images/dog.jpg");
     background-size: cover;
@@ -189,8 +209,8 @@ pre {
 }
 
 .stats-heading {
-    max-width: 500px;
     margin: auto;
+    font-size: 40px;
 }
 
 .stats .grid h3 {
@@ -199,7 +219,6 @@ pre {
 
 .stats .grid p {
     font-size: 20px;
-    font-weight: bold;
 }
 
 
@@ -418,12 +437,6 @@ pre {
     .showcase-form {
         width: 300px;
     }
+
 }
 
-.logo-big {
-    width: 200px;
-}
-
-.logo-small {
-    width: 137px;
-}

@@ -244,3 +244,11 @@
 .p-5 {
     padding: 4rem;
 }
+
+.dog-icon, .medkit-icon, .education-icon {
+    color: white;
+    background-color: #6768ab;
+    border-radius: 50%;
+    padding: 20px;
+    font-size: 30px;
+}
