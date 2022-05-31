@@ -151,8 +151,13 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
     justify-content: center;
-    align-items: center;
     height: 100%;
+    align-items: start;
+    position: relative;
+}
+
+.hero {
+    top: 100px;
 }
 
 .grid-3 {
@@ -245,10 +250,21 @@
     padding: 4rem;
 }
 
-.dog-icon, .medkit-icon, .education-icon {
+.medkit-icon, .dog-icon, .education-icon {
     color: white;
-    background-color: #6768ab;
     border-radius: 50%;
     padding: 20px;
-    font-size: 30px;
+    font-size: 20px;
+}
+
+.medkit-icon {
+    background-color: #6768ab;
+}
+
+.dog-icon {
+    background-color: rgb(121, 185, 121);
+}
+
+.education-icon {
+    background-color: rgb(2, 132, 130);
 }

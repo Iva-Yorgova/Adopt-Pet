@@ -3,6 +3,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Raleway:wght@100;200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
 @import url('https://use.fontawesome.com/releases/v5.15.4/css/all.css');
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
 :root {
     --primary-color: #F08080;
     --secondary-color: #CD5C5C;
@@ -19,7 +21,9 @@
 }
 
 body {
-    font-family: 'Raleway', sans-serif;
+    /* font-family: 'Raleway', sans-serif; */
+    font-family: 'Comfortaa', cursive;
+    /* font-family: 'Didact Gothic', sans-serif; */
     color: #6768ab;
     line-height: 1.6;
 }
@@ -67,12 +71,14 @@ p {
 }
 
 .logo-title {
-    font-family: 'Berkshire Swash', cursive;
+    /* font-family: 'Berkshire Swash', cursive; */
     background: linear-gradient(25deg, rgb(191, 178, 216) 0%, rgb(103, 104, 171) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     position: relative;
-    top: 7px;
+    top: 2px;
+    letter-spacing: -2px;
+    font-weight: 600;
 }
 
 .clouds {
@@ -100,6 +106,9 @@ pre {
     color: #fff;
     padding: 10px 0px;
     height: 77px;
+    position: fixed;
+    z-index: 200;
+    width: 100%;
 }
 
 .navbar ul {
@@ -125,7 +134,7 @@ pre {
 /* Showcase */
 
 .showcase {
-    height: 444px;
+    height: 550px;
     /*background: linear-gradient(#F08080, #e23549);*/
     background-image: linear-gradient(90deg, rgba(103, 104, 171,0.5), rgba(103, 104, 171,0.5)), url("../images/dog.jpg");
     background-size: cover;
@@ -151,6 +160,8 @@ pre {
 
 .showcase-text {
     animation: slideInFromLeft 1s ease-in;
+    top: 50px;
+    position: relative;
 }
 
 .showcase-form {
@@ -218,7 +229,7 @@ pre {
 }
 
 .stats .grid p {
-    font-size: 20px;
+    font-size: 16px;
 }
 
 
@@ -261,8 +272,25 @@ pre {
 
 .languages .card:hover {
     transform: translateY(-15px);
-    background-color: #6768ab;
     color: white;
+}
+
+.purple:hover {
+    background-color: #6768ab;
+}
+
+.green-1:hover {
+    background-color: rgb(121, 185, 121);
+}
+
+.green-2:hover {
+    background-color: rgb(2, 132, 130);
+}
+
+.walk {
+    background-color: rgb(2, 132, 130);
+    color: white;
+    padding: 55px 0px;
 }
 
 

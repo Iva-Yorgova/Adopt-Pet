@@ -19,8 +19,9 @@
     <div class="navbar">
         <div class="container flex">
             <div class="logo-div">
+                <h1 class="logo-title">Adopt</h1>
                 <img class="logo-small" src="images/pet-logo.svg" alt="logo">
-                <h1 class="logo-title">Adopt Friend</h1>
+                <h1 class="logo-title">Friend</h1>
             </div>
             <nav>
                 <ul>
@@ -34,7 +35,7 @@
 
     <!-- Showcase -->
     <section class="showcase">
-        <div class="container grid">
+        <div class="container grid hero">
             <div class="showcase-text">
                 <h1>Adopt true love from shelters, rescues, & private owners</h1>
                 <p>Pet adoption is quickly becoming the preferred way to find a new dog, puppy, cat or kitten. Best of all, there are so many benefits when you adopt a dog or adopt a cat over buying.</p>
@@ -50,15 +51,15 @@
                         <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
                     </p>
                     <div class="form-control">
-                        <input type="text" name="name" placeholder="Name" required>
+                        <input type="text" name="location" placeholder="Location" required>
                     </div>
                     <div class="form-control">
-                        <input type="text" name="company" placeholder="Company Name" required>
+                        <input type="text" name="age" placeholder="Age" required>
                     </div>
                     <div class="form-control">
-                        <input type="email" name="email" placeholder="Email" required>
+                        <input type="email" name="breed" placeholder="Breed" required>
                     </div>
-                    <input type="submit" value="Send" class="btn btn-primary">
+                    <input type="submit" value="Search" class="btn btn-primary">
                 </form>
             </div>
     </section>
@@ -78,18 +79,20 @@
                 </div>
                 <div>
                     <i class="fas fa-medkit medkit-icon"></i>
-                    <p class="text-secondary">Wellness</p>
+                    <h1 class="text-secondary">Wellness</h1>
+                    <p>Healthy pets make for happy families. We offer ongoing wellness and prevention services, including needs-based financial assistance.</p>
                 </div>
                 <div>
                     <i class="fas fa-graduation-cap education-icon"></i>
-                    <p class="text-secondary">Education</p>
+                    <h1 class="text-secondary">Education</h1>
+                    <p>Anyone can learn new tricks. Our education programs were designed to help pets and their humans grow and thrive at any age.</p>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Cloud -->
-    <section class="cloud bg-primary my-2 py-2">
+    <section class="cloud my-2 py-2 walk">
         <div class="container grid">
             <div class="text-center">
                 <h2 class="lg">
@@ -111,21 +114,21 @@
         </h2>
         <div class="container flex">
             <a href="">
-                <div class="card">
+                <div class="card green-1">
                     <h4>Coming Soon</h4>
                     <i class='bx bx-vector bx-md'></i>
                 </div>
             </a>
 
             <a href="">
-                <div class="card">
+                <div class="card purple">
                     <h4>Coming Soon</h4>
                     <i class='bx bx-vector bx-md'></i>
                 </div>
             </a>
 
             <a href="">
-                <div class="card">
+                <div class="card green-2">
                     <h4>Coming Soon</h4>
                     <i class='bx bx-vector bx-md'></i>
                 </div>
@@ -138,8 +141,7 @@
     <footer class="footer bg-dark py-5">
         <div class="container grid grid-3">
             <div>
-                <h1>Adopt Friend
-                </h1>
+                <h1>Adopt Friend</h1>
                 <p>Copyright &copy; 2022</p>
             </div>
             <nav>
@@ -156,6 +158,9 @@
             </div>
         </div>
     </footer>
+
+    <script src="/counterup.min.js"></script>
+
 </body>
 
 </html>
