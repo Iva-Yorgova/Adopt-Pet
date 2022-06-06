@@ -106,7 +106,6 @@ pre {
     background-color: black;
     color: #fff;
     padding: 10px 0px;
-    height: 77px;
     position: fixed;
     z-index: 200;
     width: 100%;
@@ -458,7 +457,7 @@ pre {
 
 /* Mobile */
 
-@media (max-width: 500px) {
+@media (max-width: 650px) {
     .navbar {}
     .navbar .flex {
         flex-direction: column;
